@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AplikacjaPrzychodniBackend\\Przychodnia\\Przychodnia\\Przychodnia.csproj": {}
+    "D:\\AplikacjaPrzychodniBackend\\ZAI\\Przychodnia\\Przychodnia\\Przychodnia.csproj": {}
   },
   "projects": {
-    "D:\\AplikacjaPrzychodniBackend\\Przychodnia\\Przychodnia\\Przychodnia.csproj": {
+    "D:\\AplikacjaPrzychodniBackend\\ZAI\\Przychodnia\\Przychodnia\\Przychodnia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AplikacjaPrzychodniBackend\\Przychodnia\\Przychodnia\\Przychodnia.csproj",
+        "projectUniqueName": "D:\\AplikacjaPrzychodniBackend\\ZAI\\Przychodnia\\Przychodnia\\Przychodnia.csproj",
         "projectName": "Przychodnia",
-        "projectPath": "D:\\AplikacjaPrzychodniBackend\\Przychodnia\\Przychodnia\\Przychodnia.csproj",
+        "projectPath": "D:\\AplikacjaPrzychodniBackend\\ZAI\\Przychodnia\\Przychodnia\\Przychodnia.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "D:\\AplikacjaPrzychodniBackend\\Przychodnia\\Przychodnia\\obj\\",
+        "outputPath": "D:\\AplikacjaPrzychodniBackend\\ZAI\\Przychodnia\\Przychodnia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,15 +40,43 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.14, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
             },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.5.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.11.0, )"
             }
           },
           "imports": [

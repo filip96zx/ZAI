@@ -18,14 +18,9 @@ namespace Przychodnia.Models
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
-        public virtual ICollection<UserRole> UserRoles { get; set; }
+        public string Country { get; set; }
+        public virtual ICollection<IdentityUserRole<int>> UserRoles { get; set; }
         public virtual ICollection<IdentityUserClaim<int>> Claims { get; set; }
-        public bool IsAdmin()
-        {
-            return UserRoles != null
-                ? UserRoles.Any(prop => prop.Role.Name.ToLower() == "admin")
-                : false;
-        }
 
 
     }
